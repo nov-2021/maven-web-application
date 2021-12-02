@@ -103,7 +103,7 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>wallmart release repo/name>
+	      <name>wallmart release repo</name>
 	      <url>http://13.232.251.220:9980/mithuntechnologies/repository/Wallmart_release/</url>
 	    </repository>
 	    
