@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://65.0.181.142:9000/</sonar.host.url>
+		<sonar.host.url>http://http://3.109.209.31:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,7 +32,7 @@
  <repository>
 	      <id>nexus</id>
 	      <name>mss remote repo</name>
-	      <url>http://13.232.251.220:9980/mithuntechnologies/repository/mss_remote_repo/</url>
+	      <url>http:http://13.127.36.6:9618/mithun/repository/mss_remote_repo/</url>
 	    </repository>
 	</repositories>
 	<dependencies>
@@ -104,13 +104,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>wallmart release repo</name>
-	      <url>http://13.232.251.220:9980/mithuntechnologies/repository/Wallmart_release/</url>
+	      <url>http://13.127.36.6:9618/mithun/repository/Wallmart_release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>wallmart snapshot repo</name>
-	      <url>http://13.232.251.220:9980/mithuntechnologies/repository/wallmart_snapshot/</url>
+	      <url>http://13.127.36.6:9618/mithun/repository/wallmart_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
